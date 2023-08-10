@@ -1,0 +1,16 @@
+body{
+    background-image: url(images/graund2.jpg);
+    border-radius: 5px;
+}
+.slider h1{
+    color: aliceblue;
+ }
+ .slider p{
+    color: aliceblue;
+    margin-right: 150px;
+    text-align: right;
+ }
+ .slider a{
+    color: antiquewhite;
+    
+ }
