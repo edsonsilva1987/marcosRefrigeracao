@@ -43,10 +43,6 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-@keyframes myfirst {
-  0%   {background: left: 0px; top: 0px;}
-  2%  {background: left: 200px; top: 0px;}
-}
 h3{
   text-align: center;
 }
