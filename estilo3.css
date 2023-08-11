@@ -1,0 +1,52 @@
+
+.teste{
+
+  margin: 5rem;
+ 
+}
+.teste h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(25, 118, 224);
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+}
+.teste p{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(25, 118, 224);
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+}
+.button {
+    padding: 18px 42px;
+    border-radius: 8px;
+    background: #aac8f5e3;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+
+ 
+}
+.button a{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+@keyframes myfirst {
+  0%   {background: left: 0px; top: 0px;}
+  2%  {background: left: 200px; top: 0px;}
+}
+h3{
+  text-align: center;
+}

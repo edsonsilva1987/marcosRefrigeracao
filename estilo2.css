@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
     background-image: url(images/graund2.jpg);
     border-radius: 5px;
@@ -13,4 +17,32 @@ body{
  .slider a{
     color: antiquewhite;
     
+ }
+ .foto img{
+   height: 550px;
+   width: 80dvw;
+   border: 5px solid #3dafe4;
+   border-radius: 50px  10px;
+   display: flex;
+ }
+ .texto h1{
+   color: azure;
+   padding-top: 5rem;
+   padding-left: 5rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 3rem;
+   border: 5px solid #3dafe4;
+   border-radius: 50px  5px;
+   display: flex;
+ }
+ .texto p{
+   color: azure;
+   padding-top: 2rem;
+   padding-left: rem;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-size: 1.5rem;
+   border: 5px solid #3dafe4;
+   border-radius: 5px  40px;
+   text-align: right;
+   display: flex;
  }
