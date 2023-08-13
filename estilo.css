@@ -24,11 +24,14 @@ hr {
     padding: px;
     margin: 5000000x;
     float: left;
+    align-items: center;
 }
 .card{
     padding: 3px;
     margin: 3px;
     background-color: rgb(18, 143, 226);
+	
+    align-items: center;
     
     
 }
