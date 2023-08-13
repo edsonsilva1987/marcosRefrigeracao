@@ -20,7 +20,7 @@ body{
  }
  .foto img{
    height: 550px;
-   width:85dvw;
+   width: 22 rem;
    border: 5px solid #3dafe4;
    border-radius: 50px  10px;
    display: flex;
