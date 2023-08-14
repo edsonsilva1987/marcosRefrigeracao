@@ -20,7 +20,11 @@ body{
  }
  .foto img{
    height: 550px;
+<<<<<<< HEAD
    width:80dvw;
+=======
+   width: 20.5rem;
+>>>>>>> 789ca0dc066a532af73331765be7585192587877
    border: 5px solid #3dafe4;
    border-radius: 50px  10px;
    display: flex;
@@ -34,6 +38,7 @@ body{
    border: 5px solid #3dafe4;
    border-radius: 50px  5px;
    display: flex;
+   text-align: center;
  }
  .texto p{
    color: azure;
