@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    display: flexbox;
+   
+}
 .btn{
     margin-top: 10px;
 }
