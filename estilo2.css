@@ -19,8 +19,8 @@ body{
     
  }
  .foto img{
-   height: 100px;
-   width:80dvw;
+   height: 400px;
+   width:82dvw;
    border: 5px solid #3dafe4;
    border-radius: 50px  10px;
    display: flex;
