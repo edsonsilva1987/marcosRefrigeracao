@@ -1,8 +1,7 @@
-*{
+
+body{
   margin: 0;
   padding: 0;
-}
-body{
     background-image: url(images/graund2.jpg);
     border-radius: 5px;
 }
@@ -19,22 +18,17 @@ body{
     
  }
  .foto img{
-<<<<<<< HEAD
    height: 550px;
    width:100%;
    margin-bottom: 10px;
-
+   align-items: center;
    border: 5x solid #3dafe4;
-=======
-   height: 400px;
-   width:82dvw;
-   border: 5px solid #3dafe4;
->>>>>>> fe18359bf8fb27076e1478e6e1140930b8f4bf71
    border-radius: 50px  10px;
    display: flex;
  }
- .texto{
-  
+ .texto img{
+  border: 5px solid #3aa0cf;
+  border-radius: 50px  5px;
  }
  .texto h1{
    color: azure;
