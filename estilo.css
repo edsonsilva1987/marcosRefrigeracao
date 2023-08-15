@@ -23,21 +23,18 @@ hr {
 .pag img{
     background-color: antiquewhite;
     height: 30rem;
+    border: 3px solid #3dafe4;
+    border-radius: 15px;
 }
 #cartao{
-    padding: px;
-    margin: 5000000x;
+    padding: 5px;
     float: left;
-    align-items: center;
+   
 }
 .card{
-    padding: 3px;
-    margin: 3px;
-    background-color: rgb(18, 143, 226);
-	
-    align-items: center;
-    
-    
+    padding-left: 2px;
+    background-color: rgb(77, 157, 223);
+
 }
 .card img{
     height: 15rem;
@@ -49,7 +46,7 @@ hr {
     margin-bottom: 10px;
     text-align: center;
     border: 3px solid #3dafe4;
-    border-radius: 1px;
+    border-radius: 10px;
     color: antiquewhite;
 }
 .final img{

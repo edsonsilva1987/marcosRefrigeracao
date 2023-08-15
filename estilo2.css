@@ -20,30 +20,31 @@ body{
  }
  .foto img{
    height: 550px;
-<<<<<<< HEAD
-   width:80dvw;
-=======
-   width: 20.5rem;
->>>>>>> 789ca0dc066a532af73331765be7585192587877
-   border: 5px solid #3dafe4;
+   width:100%;
+   margin-bottom: 10px;
+
+   border: 5x solid #3dafe4;
    border-radius: 50px  10px;
    display: flex;
  }
+ .texto{
+  
+ }
  .texto h1{
    color: azure;
-   padding-top: 5rem;
-   padding-left: 5rem;
+   padding: 2rem;
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 3rem;
-   border: 5px solid #3dafe4;
+   border: 5px solid #3aa0cf;
    border-radius: 50px  5px;
    display: flex;
    text-align: center;
+   
  }
  .texto p{
    color: azure;
    padding-top: 2rem;
-   padding-left: rem;
+   padding-left: 3rem;
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: 1.5rem;
    border: 5px solid #3dafe4;
@@ -55,3 +56,13 @@ body{
   color: rgb(245, 247, 248);
 
  }
+.texto a{
+  font-size: 2rem;
+  color: rgb(12, 82, 143);
+  text-decoration: none;
+}
+#galeria img{
+  border: 5px solid #eef0f1;
+ border-radius: 10px 50px;
+ margin: 10px;
+}
