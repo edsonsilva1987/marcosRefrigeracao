@@ -44,22 +44,23 @@ body{
  .texto p{
    color: azure;
    padding-top: 2rem;
-   padding-left: 3rem;
+   padding-left: 1rem;
+   padding-right: 2rem;
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: 1.5rem;
    border: 5px solid #3dafe4;
    border-radius: 5px  40px;
-   text-align: right;
+   text-align: center;
    display: flex;
  }
  header p{
   color: rgb(245, 247, 248);
-
  }
 .texto a{
   font-size: 2rem;
   color: rgb(12, 82, 143);
   text-decoration: none;
+
 }
 #galeria img{
   border: 5px solid #eef0f1;
