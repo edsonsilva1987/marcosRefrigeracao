@@ -19,11 +19,17 @@ body{
     
  }
  .foto img{
+<<<<<<< HEAD
    height: 550px;
    width:100%;
    margin-bottom: 10px;
 
    border: 5x solid #3dafe4;
+=======
+   height: 400px;
+   width:82dvw;
+   border: 5px solid #3dafe4;
+>>>>>>> fe18359bf8fb27076e1478e6e1140930b8f4bf71
    border-radius: 50px  10px;
    display: flex;
  }
