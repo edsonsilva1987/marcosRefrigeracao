@@ -1,6 +1,6 @@
 
 .teste{
-  margin: 5rem;
+  margin: 4rem;
 }
 .teste h1{
     text-align: center;
@@ -14,7 +14,7 @@
 }
 .teste p{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     color: rgb(25, 118, 224);
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
