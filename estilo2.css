@@ -43,13 +43,12 @@ padding-bottom:15px ;
  .texto p{
    color: azure;
    padding-top: 2rem;
-   padding-left: 1rem;
+   padding-left: 15vh;
    padding-right: 2rem;
    font-family:Georgia, 'Times New Roman', Times, serif;
-   font-size: 1.5rem;
+   font-size: 1em;
    border: 5px solid #3dafe4;
    border-radius: 30px;
-   text-align: center;
    display: flex;
  }
  header p{
@@ -59,7 +58,6 @@ padding-bottom:15px ;
   font-size: 2rem;
   color: rgb(12, 82, 143);
   text-decoration: none;
-
 }
 #galeria{
   padding: 10px;
@@ -70,12 +68,12 @@ padding-bottom:15px ;
    border-radius:20px;
 }
 .barra{
-  margin: 75px;
+  margin: 20%;
+
   
 }
 .barra h2{
   color: #eef0f1;
-  font-size: 22px;
-  padding-top: 15PX;
+  font-size: 5vw;
 }
 

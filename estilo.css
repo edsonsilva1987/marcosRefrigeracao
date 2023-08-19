@@ -33,15 +33,15 @@ hr {
 #cartao{
     padding: 5px;
     float: left;
-   
+    text-align:left;
 }
 .card{
-    padding-left: 2px;
+    padding-left: 1px;
     background-color: rgb(77, 157, 223);
-
+    
 }
 .card img{
-    height: 15rem;
+    height: 30vh;
     
 }
 .final{
