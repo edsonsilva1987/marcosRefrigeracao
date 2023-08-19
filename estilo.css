@@ -19,12 +19,16 @@ body{
 hr {
 	border-top: 1px solid #0949fa;
 }
+.pag{
+    padding-top: 15px;
+}
 
 .pag img{
     background-color: antiquewhite;
     height: 30rem;
     border: 3px solid #3dafe4;
     border-radius: 15px;
+    
 }
 #cartao{
     padding: 5px;

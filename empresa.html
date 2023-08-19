@@ -13,10 +13,33 @@
     <div class="row">
       <div class="co-12">
         <header>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="inicial.html">Home</a></button>
-              <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="galeria.html">Galeria</a></a></button>
-              <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="empresa.html">Empresa</a></a></button>
+          <div class="barra">
+            <nav class="navbar bg-body-tertiary fixed-top">
+              <div class="container-fluid" style="background-color:rgb(17,162,209);">
+                <h2 class="navbar-brand"><img src="images/logologo.avif"height="50px"> <strong>MARCOS REFRIGERAÇÃO</strong></h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header"> 
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a  class="nav-link active" aria-current="page" aria-disabled="true"><a href="inicial.html">HOME</a></button>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="galeria.html">GALERIA</a></button>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="empresa.html">SOBRE</a></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
           </div>
         </header>
             <hr>

@@ -27,8 +27,7 @@ body{
    display: flex;
  }
  .texto img{
-  border: 5px solid #3aa0cf;
-  border-radius: 50px  5px;
+padding-bottom:15px ;
  }
  .texto h1{
    color: azure;
@@ -36,7 +35,7 @@ body{
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 3rem;
    border: 5px solid #3aa0cf;
-   border-radius: 50px  5px;
+   border-radius: 30px;
    display: flex;
    text-align: center;
    
@@ -49,7 +48,7 @@ body{
    font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: 1.5rem;
    border: 5px solid #3dafe4;
-   border-radius: 5px  40px;
+   border-radius: 30px;
    text-align: center;
    display: flex;
  }
@@ -62,8 +61,21 @@ body{
   text-decoration: none;
 
 }
-#galeria img{
-  border: 5px solid #eef0f1;
- border-radius: 10px 50px;
- margin: 10px;
+#galeria{
+  padding: 10px;
+
 }
+#galeria img{
+  border: 5px solid #c9e1ec;
+   border-radius:20px;
+}
+.barra{
+  margin: 75px;
+  
+}
+.barra h2{
+  color: #eef0f1;
+  font-size: 22px;
+  padding-top: 15PX;
+}
+

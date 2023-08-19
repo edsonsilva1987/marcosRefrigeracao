@@ -13,10 +13,33 @@
     <header>
       <div class="row">
         <div class="col-12">
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="inicial.html">HOME</a></button>
-                <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="galeria.html">GALERIA</a></button>
-                <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="empresa.html">SOBRE</a></button>
+          <div class="barra">
+            <nav class="navbar bg-body-tertiary fixed-top">
+              <div class="container-fluid" style="background-color:rgb(17,162,209);">
+                <h2><img src="images/logologo.avif"height="50px"> <strong>MARCOS REFRIGERAÇÃO</strong></h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header"> 
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a  class="nav-link active" aria-current="page"><a href="inicial.html">HOME</a></button>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="galeria.html">GALERIA</a></button>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="empresa.html">SOBRE</a></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
           </div>
           <hr>
         </div>
@@ -52,7 +75,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-              <div class="col-12 col-md-3" id="cartao">
+              <div class="col-6 col-md-3" id="cartao">
                   <div class="card" style="width: 100%;">
                     <img src="images/8.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -63,7 +86,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-12 col-md-3" id="cartao">
+              <div class="col-6 col-md-3" id="cartao">
                   <div class="card" style="width: 100%;">
                     <img src="images/13.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -74,18 +97,18 @@
                       </div>
                   </div>
               </div>
-              <div class="col-12 col-md-3" id="cartao">
+              <div class="col-6 col-md-3" id="cartao">
                   <div class="card" style="width: 100%;">
                     <img src="images/7.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Qualidade</h5>
-                        <p class="card-text">Entregamos o melhor serviço mais rapido. pois o objetivo é satisfazer o cliente.
+                        <p class="card-text">Entregamos o melhor serviço. pois o objetivo é satisfazer o cliente.
                           estamos prontos para atender a toda região.</p>
                         <a href="https://wa.me/5585997574762" class="btn btn-primary">Saiba mais</a>
                       </div>
                   </div>
               </div>
-              <div class="col-12 col-md-3" id="cartao">
+              <div class="col-6 col-md-3" id="cartao">
                 <div class="card" style="width: 100%;">
                   <img src="images/4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -102,7 +125,7 @@
           <div class="texto">
             <h1><em>Com bastante expeciencia no mercado de ar-condicionado residencial fazemos instalação, 
               manutenção e limpeza.</em></h1>
-            <p><strong> Entre contato e <a href="https://wa.me/5585997574762">saiba mais.</a></strong></p>
+            <p class="zap"><strong> Entre contato e saiba mais. <br></a></strong><a href="https://wa.me/5585997574762"><img src="images/whatsapp_318-674522.avif" style="height: 50px;"></a></p>
           </div>
           <div class="foto"><img src="images/fotonoespelho.jpg"></div>  
         </div>
@@ -112,7 +135,8 @@
       <div class="row">
         <div class="col-12">
           <div class="final">
-              <div class="bi bi-whatsapp"><a href="https://wa.me/5585997574762"><img src="images/whatsapp_318-674522.avif"></a></i>
+              <div class="bi bi-whatsapp">
+                <a href="https://wa.me/5585997574762"><img src="images/whatsapp_318-674522.avif"></a>
                 <a href="https://www.facebook.com/franciscomarcos.santos.1"><img src="images/face.png"> </a>
                 <a href="https://www.instagram.com/franciscomarcos87/"><img src="images/instagram.avif"></a>
                 <h5>Todos os direitos Reservados</h5> 
