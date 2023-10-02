@@ -1,29 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcos Refrigeracao</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="estilo2.css">
-    <link rel="stylesheet" href="estilo3.css">
-    <style>
-        body{
-            background-image:url(images/tela\ fundoar.jpg);
-            background-position: center;
-           
-            background-size: cover;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página inicial</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="estilo2.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8711085894365800"
+     crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="teste">
-        <br><h1><strog>Sejam bem-vindos!</strog></h1>
-        <p><strog><i>Deseja instalar, reinstalar, fazer manutenção ou orçamento do seu ar-condicionado?</i></strog></p>
-      
-       <h3><button class="button"><a href="inicial.html">Entrar</a></a></button></h3>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-12">
+          <div class="barra">
+            <nav class="navbar bg-body-tertiary fixed-top">
+              <div class="container-fluid" style="background-color:rgb(17,162,209);">
+                <div></div>
+                <h2> <strong><img src="images/logologo.avif"height="60vw"> MARCOS REFRIGERAÇÃO</strong></h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header"> 
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a  class="nav-link active" aria-current="page"><a href="inicial.html">HOME</a></button>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="galeria.html">GALERIA</a></button>
+                      </li>
+                      <li class="nav-item">
+                        <button class="btn btn-primary me-md-2" type="button"><a class="nav-link active" aria-disabled="true"><a href="empresa.html">SOBRE</a></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="row">
+        <div class="col-12">
+            <div class="pag">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/Ar_Condicionado.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/novafoto.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/ardetetoss.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="col-6 col-md-3" id="cartao">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/13.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Limpeza</h5>
+                        <p class="card-text">Com a proposta de melhorar a eficiencia do aparelho e evitar mal cheiro,
+                          fazemos limpeza preventiva do ar-condicionado.</p>
+                        <a href="https://wa.me/5585997574762" class="btn btn-primary">Saiba mais</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3" id="cartao">
+                <div class="card" style="width: 100%;">
+                  <img src="images/8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Instalação</h5>
+                      <p class="card-text">Instalamos seu ar-condicionado com qualidade e garantia. 
+                        Agende uma visita e faça seu orçamento gratis. Entre em contato.</p>
+                      <a href="https://wa.me/5585997574762" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3" id="cartao">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Qualidade</h5>
+
+                        <p class="card-text">Entregamos o serviço de qualidade. pois o objetivo é satisfazer o cliente.
+                          estamos prontos para atender você, da melhor forma.</p>
+                        <a href="https://wa.me/5585997574762" class="btn btn-primary">Saiba mais</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3" id="cartao">
+                <div class="card" style="width: 100%;">
+                  <img src="images/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Reinstalação</h5>
+                      <p class="card-text">Fazemos a reinstalação do seu ar-condicionado, com segurança. 
+                        pra outro lugar ou cômodo da casa. Onde você achar melhor.</p>
+                      <a href="https://wa.me/5585997574762" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+              </div>  
+            </div>
+        </div>
+        <div class="col-12">
+          <div class="texto">
+            <h1><em>Com bastante experiência no mercado de ar-condicionado residencial fazemos instalação, 
+              manutenção e limpeza.</em></h1>
+            <p class="zap"><strong> Entre em contato e saiba mais. <br></a></strong><a href="https://wa.me/5585997574762"><img src="images/whatsapp_318-674522.avif" style="height: 50px;"></a></p>
+          </div>
+          <div class="foto"><img src="images/fotonoespelho.jpg"></div>  
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col-12">
+          <div class="final">
+              <div class="bi bi-whatsapp">
+                <a href="https://wa.me/5585997574762"><img src="images/whatsapp_318-674522.avif"></a>
+                <a href="https://www.facebook.com/franciscomarcos.santos.1"><img src="images/face.png"> </a>
+                <a href="https://www.instagram.com/franciscomarcos87/"><img src="images/instagram.avif"></a>
+                <h5>Todos os direitos Reservados</h5> 
+              </div> 
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
